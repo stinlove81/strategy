@@ -2,7 +2,7 @@ name: Strategy Auto Update
 
 on:
   schedule:
-    - cron: '13 * * * *'  # 매시간 13분에 실행 (즉, 1시간 간격)
+    - cron: '40 * * * *'  # 매시간 40분에 실행 (즉, 1시간 간격)
   workflow_dispatch:     # 언제든 수동으로 돌릴 수 있는 버튼
 
 jobs:

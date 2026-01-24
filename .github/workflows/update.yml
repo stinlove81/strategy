@@ -1,4 +1,4 @@
-name: Strategy Data Update
+name: Strategy Auto Update
 
 on:
   schedule:

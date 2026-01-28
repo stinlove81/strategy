@@ -2,8 +2,8 @@ name: Strategy Auto Update
 
 on:
   schedule:
-    - cron: '40 * * * *'  # 매시간 40분에 실행 (즉, 1시간 간격)
-  workflow_dispatch:     # 언제든 수동으로 돌릴 수 있는 버튼
+    - cron: '*/5 * * * *' # 5분마다 실행 (60초 단위는 깃허브 액션 제한이 있어 5분 권장)
+  workflow_dispatch:      # 수동으로 실행하고 싶을 때 사용
 
 jobs:
   build:
